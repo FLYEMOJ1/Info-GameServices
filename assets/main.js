@@ -1276,5 +1276,13 @@
 				});
 	
 		})();
+	
+	// Buttons: buttons03.
+		$('#buttons03 > li:nth-child(2) > a').addEventListener(
+			'click',
+			function(event) { 
+				console.log("Hey! This will BREAK LAW!!!");
+			}
+		);
 
 })();
